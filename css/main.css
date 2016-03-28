@@ -1,6 +1,12 @@
-/* TYPOGRAPHY */
-body {
+@keyframes blink {
+  from {background-color: blue;}
+  to {background-color: red;}
+}
+
+html {
   background-color: #0000FF;
+  cursor: url(../img/cursor.png), default;
+  -webkit-animation: blink 0.1s infinite;
 }
 
 
